@@ -1,9 +1,13 @@
-import {List} from './components/List';
+11 lines (9 sloc)  192 Bytes
 
-function App() {
-   return(
-      <List title = 'INFO'/>
-   )
-};
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <>
+   <App/>
+   </>
+)
+
+console.log(root);

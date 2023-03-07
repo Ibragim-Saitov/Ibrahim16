@@ -1,9 +1,14 @@
-import {List} from './components/List';
+import Message from "./Message";
+
 
 function App() {
-   return(
-      <List title = 'INFO'/>
-   )
-};
+  return (
+    <div className="App">
+      <div className='container'>
+      <Message/>
+      </div>
+    </div>
+  );
+}
 
 export default App;
